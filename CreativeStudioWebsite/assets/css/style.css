@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+nav {
+	min-height: 4vh;
+	width: 65%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	font-weight: bold;
+}
+
+.navOption:hover{
+	cursor: pointer;
+	background-color: #f37d01;
+}
+
+#navOptionHome {
+	background-color: #f37d01;
+	font-weight: 1px;
+}
+
+nav>div{
+	padding: 1vh 17.3vh;
+}
+
+.photo-section {
+	background-color: #f4f4f4;
+}
+
+.photos {
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: auto;
+	text-align: center;
+}
+
+#imageOne {
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+#imageTwo {
+    height: 100%;
+    width: 100%;
+}
+
+.content
+{
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+footer {
+	background-color: #e2e2e2;
+	height: 10vh;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.copyright {
+	width: 65%;
+	margin: auto;
+	font-size: 11px;
+	color: #5d5d5d;
+}
+
+.read {
+	color: #f37d01;
+	font-size: 13px;
+	margin-top: 2vh;
+	margin-bottom: 4vh;
+}
+
+.loremText{
+	font-size: 11px;
+	width: 100%;
+	color: #5d5d5d;
+}
+
+.headings {
+	margin-top: 5vh;
+}
+
+#bars {
+	height: 0.8vh;
+	background-color: #000000;
+	margin-bottom: 2vh;
+}
+
+.about {
+    width: 92%;
+}
+
+.testimonials {
+    width: 385%;
+}
+
+.loremText2 {
+	margin-top: 2vh;
+}
+
+.contents {
+    width: 412%;
+}
+
+.read2 {
+    margin-top: 6vh;
+}
